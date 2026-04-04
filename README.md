@@ -26,6 +26,7 @@
   - [Calendar](#calendar)
   - [Fantasy F1](#fantasy-f1)
   - [Prediction and Machine Learning](#prediction-and-machine-learning)
+  - [Simulation and Vehicle Dynamics](#simulation-and-vehicle-dynamics)
   - [Historical and Statistics](#historical-and-statistics)
   - [Official and Reference](#official-and-reference)
 - [Formula 2 and Formula 3](#formula-2-and-formula-3)
@@ -59,7 +60,6 @@
 - [Jolpica-F1](https://github.com/jolpica/jolpica-f1) - Ergast-compatible F1 API and the current community standard replacement since Ergast shutdown.
 - [Jolpica API](https://api.jolpi.ca/ergast/f1/) - Hosted endpoint for historical F1 data.
 - [F1DB](https://github.com/f1db/f1db) - Full F1 database distributed as JSON, CSV, and SQL dumps.
-- [F1DB Website](https://f1db.com/) - Searchable frontend for the F1DB dataset.
 - [LiveF1](https://github.com/GoktugOcal/LiveF1) - Python toolkit for real-time and historical F1 data with medallion architecture ETL.
 - [f1dataR](https://github.com/SCasanova/f1dataR) - R package wrapping FastF1 and Jolpica. The standard R interface for F1 data.
 - [f1api.dev](https://f1api.dev/) - Developer-focused F1 API and SDK surface. [GitHub](https://github.com/rafacv23/f1-api).
@@ -72,6 +72,10 @@
 - [Tracing Insights Data](https://tracinginsights.com/data/) - Download hub for telemetry and session data.
 - [TracingInsights on HuggingFace](https://huggingface.co/datasets/tracinginsights/RaceData) - Full Ergast-schema mirror with 20+ CSV files, auto-updated within 3 hours of each race.
 - [renumics/f1_dataset](https://huggingface.co/datasets/renumics/f1_dataset) - Montreal 2023 GP telemetry with 40+ columns including 882-dimensional embeddings for ML.
+- [formula1-datasets](https://github.com/toUpperCase78/formula1-datasets) - Season-by-season CSV datasets and Jupyter analysis notebooks for every F1 season from 2019-2026. Actively updated after each race.
+- [f1-circuits](https://github.com/bacinger/f1-circuits) - F1 circuits in GeoJSON format with track layouts and location coordinates. 35+ of 77 historic circuits.
+- [TUMFTM/racetrack-database](https://github.com/TUMFTM/racetrack-database) - Center lines, track widths, and computed race lines for 20+ circuits from TU Munich.
+- [RelBench rel-f1](https://relbench.stanford.edu/datasets/rel-f1/) - Stanford relational ML benchmark with 9 tables, 97K+ rows, and 6 ML tasks covering 1950-present. NeurIPS 2024.
 
 ### Kaggle Datasets
 
@@ -88,8 +92,14 @@
 ### Tools and Apps
 
 - [F1 Replay Timing](https://github.com/adn8naiagent/F1ReplayTiming) - Replay viewer with timing overlays, telemetry charts, and track map support.
+- [f1_sensor](https://github.com/Nicxe/f1_sensor) - Home Assistant integration with next race, calendar, live flags, Race Control messages, weather, standings, and historical results.
 - [f1-sensor-live-data-card](https://github.com/Nicxe/f1-sensor-live-data-card) - Home Assistant cards for live F1 telemetry and championship views.
+- [formulaone-card](https://github.com/marcokreeft87/formulaone-card) - Home Assistant dashboard card for F1 standings, schedules, and results. Works with Jolpica API or f1_sensor.
 - [Apify F1 Data Extractor](https://apify.com/richard.biros/f1-data-extractor) - Scrapes formula1.com for race, qualifying, practice, and pit stop data from 1950-present. Clean JSON output.
+- [F1AppleTV](https://github.com/NoahFetz/F1AppleTV) - F1TV client for Apple TV with multi-feed viewing and multiple audio tracks.
+- [BoxBox](https://github.com/BrightDV/BoxBox) - Open-source F1 and Formula E mobile app (Flutter). News, standings, schedule, offline mode. Available on F-Droid.
+- [RaceControl](https://github.com/robvdpol/RaceControl) - F1TV desktop client for Windows (.NET) with built-in or external player support. `archived`
+- [f1viewer](https://github.com/SoMuchForSubtlety/f1viewer) - TUI for F1TV in Go supporting VOD and live streaming via MPV. `archived`
 
 ### Dashboards and Analytics
 
@@ -100,6 +110,10 @@
 - [Pitwall](https://pitwall.app/) - F1 database with lap data, pitstop data, race progression from 1950. Web + iOS.
 - [F1 DataStop](https://f1datastop.com/) - Lap time deltas, stint strategy breakdowns, driver vs teammate comparisons.
 - [F1pace](https://f1pace.com/) - In-depth F1 data analysis and visualization.
+- [BoardF1](https://boardf1.com/) - Real-time F1 analytics dashboard with race results, lap times, tyre strategy, and team pace.
+- [Formula-Timer](https://formula-timer.com/) - Live timing and analytics with lap time breakdowns, performance insights, and circuit guide.
+- [F1 Tempo](https://www.f1-tempo.com/) - Explore and compare F1 lap times and telemetry for journalists, analysts, and enthusiasts.
+- [Formula Live Pulse](https://www.f1livepulse.com/) - Live timing with telemetry charts, 3D track map, AI assistant, and team radio. Covers F1, F2, F3, and F1 Academy.
 
 **Open source:**
 
@@ -117,19 +131,29 @@
 
 - [F1 Fantasy API (Postman docs)](https://documenter.getpostman.com/view/11462073/TzY68Dsi) - REST API documentation for the official F1 Fantasy undocumented API.
 - [Fantasy F1 API Endpoints Cheat Sheet](https://cheatography.com/sertalpbilal/cheat-sheets/fantasy-f1-api-endpoints/) - Comprehensive endpoint reference.
+- [F1 Fantasy Tools](https://f1fantasytools.com/) - Monte Carlo simulation-based team calculator, budget builder, and live scoring for official F1 Fantasy.
+- [F1 Pitwall.dev](https://f1pitwall.dev/) - Fantasy optimizer using FP/qualifying data with Monte Carlo confidence intervals. 80.6% backtest accuracy.
 
 ### Prediction and Machine Learning
 
 - [f1ml](https://github.com/Jared-Chan/f1ml) - Lap-by-lap prediction: lap times, positions, pit stops, and collisions for 20 drivers through a full race. `archived`
-- [f1-elo](https://matthewperron.github.io/f1-elo/) - Chess-style Elo rating system for all F1 drivers, current and historical.
+
+### Simulation and Vehicle Dynamics
+
+- [fastest-lap](https://github.com/juanmanzanero/fastest-lap) - Vehicle dynamics simulator for optimal lap-time simulation with 3DOF/6DOF models (C++/Python).
+- [TUMFTM/global_racetrajectory_optimization](https://github.com/TUMFTM/global_racetrajectory_optimization) - Minimum curvature and minimum time racing line generation from TU Munich. Published research.
+- [TUMFTM/race-simulation](https://github.com/TUMFTM/race-simulation) - Lap-wise race simulation for pit stop strategy with reinforcement learning and Monte Carlo analysis.
 
 ### Historical and Statistics
 
-- [STATS F1](https://www.statsf1.com/) - All F1 results and statistics from 1950. One of the oldest reference sites.
 - [F1 BigData](https://www.bigdataf1.com/) - Comprehensive historical statistics database, 1950 to present.
 - [Formula 1 Archive](https://www.formula1archive.com/) - Complete F1 history: 1,100+ races, 900+ drivers, 75+ seasons.
 - [f1metrics](https://f1metrics.wordpress.com/) - Mathematical and statistical F1 modeling, driver performance ratings, and deep analysis.
 - [F1 Analysis](https://f1-analysis.com/) - Mathematical and statistical F1 analytics with predictive models.
+- [OldRacingCars.com](https://www.oldracingcars.com/f1/) - Detailed chassis-level histories for 3-litre F1 cars (1966-1985) with non-championship race results.
+- [x1z.net](https://x1z.net/) - Searchable index of the F1 TV archive with race ratings and session links.
+- [Formula1Points.com](https://www.formula1points.com/) - Compare drivers across different points systems. Head-to-head stats and alternative scoring scenarios.
+- [4mula1stats.com](https://www.4mula1stats.com/) - F1 results, statistics, and charts since 1950 with driver comparison tools.
 
 ### Official and Reference
 
@@ -185,7 +209,6 @@
 
 ## MotoGP and WorldSBK
 
-- [racingmike MotoGP API](https://racingmike.com/api/v1.0/motogp-season) - Community API for season and classification data.
 - [TheSportsDB MotoGP](https://www.thesportsdb.com/league/4407-motogp) - Free community API surface.
 - [TheSportsDB WorldSBK](https://www.thesportsdb.com/league/4454-sbk) - Free community API surface.
 - [MotoGP](https://www.motogp.com/) - Official site. [Calendar](https://www.motogp.com/en/calendar/2026).
@@ -251,6 +274,9 @@
 - [Race Monitor API](https://www.race-monitor.com/Home/API) - Generic race timing API covering grassroots through pro events.
 - [List of Formula One Circuits](https://en.wikipedia.org/wiki/List_of_Formula_One_circuits) - Useful seed for circuit metadata.
 - [List of Motor Racing Circuits by FIA Grade](https://en.wikipedia.org/wiki/List_of_motor_racing_circuits_by_FIA_grade) - Good source for grade and venue metadata.
+- [Motor Sport Magazine Database](https://www.motorsportmagazine.com/database/) - Nearly every motorsport race since 1894. Drivers, teams, circuits, championships.
+- [DriverDB](https://www.driverdb.com/) - Career statistics for 70,000+ drivers across all levels of motorsport with Elo-style ranking.
+- [FIA Results and Statistics](https://fiaresultsandstatistics.motorsportstats.com/) - Official FIA results portal powered by Motorsport Stats, covering all FIA-sanctioned championships.
 
 ## Learning and Education
 
@@ -264,6 +290,10 @@
 - [F1 Data Junkie](http://www.f1datajunkie.com/) - Tony Hirst's long-running F1 data analysis blog.
 - [RaceFans Race Data](https://www.racefans.net/category/race-data/) - Independent analysis articles with race data and statistics.
 - [TracingInsights](https://tracinginsights.com/) - Interactive charts for lap times, telemetry, and performance analysis. 2018+ seasons.
+- [F1technical.net](https://www.f1technical.net/) - Deep technical articles on aerodynamics, car design, and regulation analysis with active forums.
+- [ScarbsF1](https://scarbsf1.wordpress.com/) - Craig Scarborough's long-running F1 technical blog with detailed illustrations and car analysis.
+- [Towards Formula 1 Analysis](https://medium.com/towards-formula-1-analysis) - Structured FastF1 tutorials on Medium covering telemetry analysis, race strategy, and minisector comparisons.
+- [Motorsport Engineer](https://motorsportengineer.net/) - Courses taught by current and former F1 engineers covering aerodynamics, vehicle dynamics, and CFD.
 
 ### YouTube Channels
 
@@ -271,13 +301,15 @@
 - [Driver61](https://www.youtube.com/@Driver61) - Racing technique, car setup science, and F1 engineering deep dives.
 - [Peter Windsor](https://www.youtube.com/@PeterWindsorF1) - Inside F1 from a veteran journalist with technical depth.
 - [Kyle Engineers](https://www.youtube.com/@KyleEngineers) - F1 engineering analysis from a practicing engineer.
+- [The Race](https://www.youtube.com/@TheRace) - Largest independent motorsport channel with expert analysis and technical deep dives.
+- [CYMotorsport](https://www.youtube.com/@CYMotorsport) - Data-driven F1 driver comparisons, historical analysis, and storytelling.
 
 ### Podcasts
 
 - [Beyond the Grid](https://www.youtube.com/@BeyondTheGridF1) - Official F1 podcast with in-depth driver and team principal interviews.
 - [Data Driven F1](https://podcasts.apple.com/us/podcast/data-driven-f1/id1527676761) - Technology, data, and behavioral analysis in F1. Biweekly.
-- [Shift+F1](https://shiftf1.com/) - Data-driven, technically focused F1 podcast for the analytically inclined.
 - [The Race F1 Podcast](https://the-race.com/podcasts/) - Expert analysis from The Race's F1 journalists.
+- [The Race F1 Tech Show](https://podcasts.apple.com/us/podcast/the-race-f1-tech-show/id1502430647) - Former F1 technical director Gary Anderson and Edd Straw discuss car engineering, aerodynamics, and development.
 
 ## Films, Documentaries, and Games
 
@@ -285,6 +317,7 @@
 
 - [Schumacher '94](https://www.imdb.com/title/tt36741795/) (2026) - Netflix. Michael Schumacher's dramatic first championship season in 1994, featuring his wife Corinna and those closest to the seven-time champion.
 - [Drive to Survive](https://www.netflix.com/title/80204890) (2019-2026) - Netflix. Behind-the-scenes docuseries covering the drama on and off the F1 grid. 8 seasons.
+- [Brawn: The Impossible Formula 1 Story](https://www.imdb.com/title/tt22297946/) (2023) - Disney+. How Brawn GP won the 2009 World Championship as an underfinanced independent team. Narrated by Keanu Reeves. 4 parts.
 - [F1: The Academy](https://www.imdb.com/title/tt36711188/) (2025) - Netflix. 15 young women compete in the F1 Academy racing series in pursuit of reaching Formula 1. Produced by Hello Sunshine.
 - [The Seat](https://www.imdb.com/title/tt36741795/) (2025) - Netflix. Mercedes' decision to promote 18-year-old Kimi Antonelli to Formula 1 following Lewis Hamilton's departure to Ferrari.
 - [Schumacher](https://www.netflix.com/title/81399308) (2021) - Netflix. The life and career of seven-time world champion Michael Schumacher, told through rare interviews and archival footage.
