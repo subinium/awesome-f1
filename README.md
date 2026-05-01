@@ -25,7 +25,6 @@
   - [Dashboards and Analytics](#dashboards-and-analytics)
   - [Calendar](#calendar)
   - [Fantasy F1](#fantasy-f1)
-  - [Prediction and Machine Learning](#prediction-and-machine-learning)
   - [Simulation and Vehicle Dynamics](#simulation-and-vehicle-dynamics)
   - [Historical and Statistics](#historical-and-statistics)
   - [Official and Reference](#official-and-reference)
@@ -33,6 +32,7 @@
   - [Technical Media](#technical-media)
   - [Junior and Feeder Series Media](#junior-and-feeder-series-media)
   - [Official Session Sources](#official-session-sources)
+  - [Archived / Historical Projects](#archived--historical-projects)
 - [Formula 2 and Formula 3](#formula-2-and-formula-3)
 - [Formula E](#formula-e)
 - [Endurance, WEC, Le Mans, IMSA](#endurance-wec-le-mans-imsa)
@@ -46,6 +46,7 @@
 - [Other Series](#other-series)
 - [Sim Racing](#sim-racing)
 - [Cross-Series and General Motorsport](#cross-series-and-general-motorsport)
+  - [Seed Metadata](#seed-metadata)
 - [Learning and Education](#learning-and-education)
   - [Books](#books)
   - [Blogs and Tutorials](#blogs-and-tutorials)
@@ -105,8 +106,6 @@
 - [Apify F1 Data Extractor](https://apify.com/richard.biros/f1-data-extractor) - Scrapes formula1.com for race, qualifying, practice, and pit stop data from 1950-present. Clean JSON output.
 - [F1AppleTV](https://github.com/NoahFetz/F1AppleTV) - F1TV client for Apple TV with multi-feed viewing and multiple audio tracks.
 - [BoxBox](https://github.com/BrightDV/BoxBox) - Open-source F1 and Formula E mobile app (Flutter). News, standings, schedule, offline mode. Available on F-Droid.
-- [RaceControl](https://github.com/robvdpol/RaceControl) - F1TV desktop client for Windows (.NET) with built-in or external player support. `archived`
-- [f1viewer](https://github.com/SoMuchForSubtlety/f1viewer) - TUI for F1TV in Go supporting VOD and live streaming via MPV. `archived`
 
 ### Dashboards and Analytics
 
@@ -140,10 +139,6 @@
 - [Fantasy F1 API Endpoints Cheat Sheet](https://cheatography.com/sertalpbilal/cheat-sheets/fantasy-f1-api-endpoints/) - Comprehensive endpoint reference.
 - [F1 Fantasy Tools](https://f1fantasytools.com/) - Monte Carlo simulation-based team calculator, budget builder, and live scoring for official F1 Fantasy.
 - [F1 Pitwall.dev](https://f1pitwall.dev/) - Fantasy optimizer using FP/qualifying data with Monte Carlo confidence intervals. 80.6% backtest accuracy.
-
-### Prediction and Machine Learning
-
-- [f1ml](https://github.com/Jared-Chan/f1ml) - Lap-by-lap prediction: lap times, positions, pit stops, and collisions for 20 drivers through a full race. `archived`
 
 ### Simulation and Vehicle Dynamics
 
@@ -211,6 +206,12 @@
 - [FIA F1 Decision Documents](https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072) - Official race documents, steward decisions, race director notes, timetables, classifications, and technical notices.
 - [FIA F1 Press Conference Transcripts](https://www.fia.com/news?category=Formula%201) - Official FIA-hosted F1 press conference transcripts and FIA news.
 - [Pirelli F1 Press Area](https://press.pirelli.com/en/?h=1&t=formula+1) - Official tyre compound nominations, race previews, infographics, and tyre-related session reports.
+
+### Archived / Historical Projects
+
+- [RaceControl](https://github.com/robvdpol/RaceControl) - Archived F1TV desktop client for Windows (.NET) with built-in or external player support.
+- [f1viewer](https://github.com/SoMuchForSubtlety/f1viewer) - Archived TUI for F1TV in Go supporting VOD and live streaming via MPV.
+- [f1ml](https://github.com/Jared-Chan/f1ml) - Archived lap-by-lap F1 race prediction project covering lap times, positions, pit stops, and collisions for 20 drivers.
 
 ## Formula 2 and Formula 3
 
@@ -329,11 +330,14 @@
 - [SportsDataIO Motorsport](https://sportsdata.io/motorsports-api) - Commercial motorsport data across series.
 - [Sportradar Racing](https://developer.sportradar.com/racing) - Commercial multi-series racing API.
 - [Race Monitor API](https://www.race-monitor.com/Home/API) - Generic race timing API covering grassroots through pro events.
-- [List of Formula One Circuits](https://en.wikipedia.org/wiki/List_of_Formula_One_circuits) - Useful seed for circuit metadata.
-- [List of Motor Racing Circuits by FIA Grade](https://en.wikipedia.org/wiki/List_of_motor_racing_circuits_by_FIA_grade) - Good source for grade and venue metadata.
 - [Motor Sport Magazine Database](https://www.motorsportmagazine.com/database/) - Nearly every motorsport race since 1894. Drivers, teams, circuits, championships.
 - [DriverDB](https://www.driverdb.com/) - Career statistics for 70,000+ drivers across all levels of motorsport with Elo-style ranking.
 - [FIA Results and Statistics](https://fiaresultsandstatistics.motorsportstats.com/) - Official FIA results portal powered by Motorsport Stats, covering all FIA-sanctioned championships.
+
+### Seed Metadata
+
+- [List of Formula One Circuits](https://en.wikipedia.org/wiki/List_of_Formula_One_circuits) - Useful starting point for circuit metadata.
+- [List of Motor Racing Circuits by FIA Grade](https://en.wikipedia.org/wiki/List_of_motor_racing_circuits_by_FIA_grade) - Useful starting point for venue grade metadata.
 
 ## Learning and Education
 
@@ -356,7 +360,7 @@
 
 - [Chain Bear](https://www.youtube.com/@chainbear) - Clear, visual explanations of F1 rules, strategy, and technical concepts.
 - [Driver61](https://www.youtube.com/@Driver61) - Racing technique, car setup science, and F1 engineering deep dives.
-- [Peter Windsor](https://www.youtube.com/@PeterWindsorF1) - Inside F1 from a veteran journalist with technical depth.
+- [Peter Windsor](https://www.youtube.com/@peterwindsor) - Inside F1 from a veteran journalist with technical depth.
 - [Kyle Engineers](https://www.youtube.com/@KyleEngineers) - F1 engineering analysis from a practicing engineer.
 - [The Race](https://www.youtube.com/@TheRace) - Largest independent motorsport channel with expert analysis and technical deep dives.
 - [CYMotorsport](https://www.youtube.com/@CYMotorsport) - Data-driven F1 driver comparisons, historical analysis, and storytelling.
@@ -372,7 +376,7 @@
 
 ### Documentaries
 
-- [Schumacher '94](https://www.imdb.com/title/tt36741795/) (2026) - Netflix. Michael Schumacher's dramatic first championship season in 1994, featuring his wife Corinna and those closest to the seven-time champion.
+- [Schumacher '94](https://www.imdb.com/title/tt39453404/) (2026) - Netflix. Michael Schumacher's dramatic first championship season in 1994, featuring his wife Corinna and those closest to the seven-time champion.
 - [Drive to Survive](https://www.netflix.com/title/80204890) (2019-2026) - Netflix. Behind-the-scenes docuseries covering the drama on and off the F1 grid. 8 seasons.
 - [Brawn: The Impossible Formula 1 Story](https://www.imdb.com/title/tt22297946/) (2023) - Disney+. How Brawn GP won the 2009 World Championship as an underfinanced independent team. Narrated by Keanu Reeves. 4 parts.
 - [F1: The Academy](https://www.imdb.com/title/tt36711188/) (2025) - Netflix. 15 young women compete in the F1 Academy racing series in pursuit of reaching Formula 1. Produced by Hello Sunshine.
@@ -395,9 +399,8 @@
 
 - [EA Sports F1 25](https://www.ea.com/games/f1/f1-25) (2025) - Official F1 racing game with career mode, multiplayer, and UDP telemetry output for data tools.
 - [F1 Manager 2024](https://store.steampowered.com/app/2287220/F1_Manager_2024/) (2024) - Official F1 management simulation. Strategy, team development, and race management.
-- [Gran Turismo 7](https://www.gran-turismo.com/us/gt7/) (2022) - PlayStation racing sim with community-cracked UDP telemetry.
-- [Assetto Corsa Competizione](https://www.assettocorsa.it/competizione/) (2019) - Official GT World Challenge sim with shared memory telemetry access.
-- [iRacing](https://www.iracing.com/) (2008) - Professional-grade online racing simulation with the most mature data API ecosystem.
+
+Sim-focused titles (Gran Turismo 7, Assetto Corsa Competizione, iRacing) are listed under [Sim Racing](#sim-racing) alongside their telemetry tooling.
 
 ## Official Reference Links
 
