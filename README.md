@@ -29,6 +29,10 @@
   - [Simulation and Vehicle Dynamics](#simulation-and-vehicle-dynamics)
   - [Historical and Statistics](#historical-and-statistics)
   - [Official and Reference](#official-and-reference)
+  - [News and Media](#news-and-media)
+  - [Technical Media](#technical-media)
+  - [Junior and Feeder Series Media](#junior-and-feeder-series-media)
+  - [Official Session Sources](#official-session-sources)
 - [Formula 2 and Formula 3](#formula-2-and-formula-3)
 - [Formula E](#formula-e)
 - [Endurance, WEC, Le Mans, IMSA](#endurance-wec-le-mans-imsa)
@@ -175,6 +179,35 @@
 | [Mercedes-AMG PETRONAS Formula One Team](https://www.mercedesamgf1.com/) | [Oracle Red Bull Racing](https://www.redbullracing.com/) |
 | [Scuderia Ferrari HP](https://www.ferrari.com/en-EN/formula1) | [TGR Haas F1 Team](https://www.haasf1team.com/) |
 | [Visa Cash App Racing Bulls](https://www.racingbulls.com/) | |
+
+### News and Media
+
+- [Formula 1 Latest](https://www.formula1.com/en/latest) - Official F1 news, videos, standings, results, and paddock analysis.
+- [Autosport Formula 1](https://www.autosport.com/f1/news/) - Established motorsport journalism since 1950 covering F1 news, features, calendar, standings, results, and live coverage.
+- [Motorsport.com Formula 1](https://www.motorsport.com/f1/news/) - High-volume global F1 coverage with news, live text, schedules, results, standings, galleries, and video.
+- [The Race Formula 1](https://www.the-race.com/category/formula-1/) - Independent F1 news, analysis, rule-change coverage, podcasts, and expert columns.
+- [PlanetF1](https://www.planetf1.com/) - F1-focused news, live coverage, standings, schedule, data, tech, and community forum.
+- [RaceFans](https://www.racefans.net/) - Independent F1 and motorsport coverage with news, race data, statistics, penalty points, Rate the Race, and forums.
+- [RacingNews365](https://racingnews365.com/) - F1-focused daily news, calendar, results, standings, and race-weekend coverage.
+- [Motor Sport Magazine F1](https://www.motorsportmagazine.com/articles/category/single-seaters/f1/) - Long-form F1 features, history, archives, statistics, and columns from a heritage motorsport publication.
+
+### Technical Media
+
+- [Auto Motor und Sport Formel 1](https://www.auto-motor-und-sport.de/formel-1/aktuell/) - German-language F1 reporting with strong paddock, interview, and technical coverage.
+- [Racecar Engineering Formula One](https://www.racecar-engineering.com/formulaone/) - Technical and engineering-focused F1 articles, explainers, and car development coverage.
+- [Giorgio Piola's F1 Technical Analysis](https://www.motorsport.com/topic/giorgio-piola-s-f1-technical-analysis/23/) - Technical illustrations and analysis from one of F1's best-known technical journalists.
+- [SomersF1](https://somersf1.substack.com/) - Matthew Somerfield's technical F1 analysis and document-cache notes.
+
+### Junior and Feeder Series Media
+
+- [Formula Scout](https://formulascout.com/) - Junior single-seater news and features covering F2, F3, F4, Road to Indy, and future F1 prospects.
+- [Feeder Series](https://feederseries.net/) - Junior single-seater previews, reviews, results, standings, podcasts, and driver-development coverage.
+
+### Official Session Sources
+
+- [FIA F1 Decision Documents](https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072) - Official race documents, steward decisions, race director notes, timetables, classifications, and technical notices.
+- [FIA F1 Press Conference Transcripts](https://www.fia.com/news?category=Formula%201) - Official FIA-hosted F1 press conference transcripts and FIA news.
+- [Pirelli F1 Press Area](https://press.pirelli.com/en/?h=1&t=formula+1) - Official tyre compound nominations, race previews, infographics, and tyre-related session reports.
 
 ## Formula 2 and Formula 3
 
