@@ -33,7 +33,7 @@
   - [Junior and Feeder Series Media](#junior-and-feeder-series-media)
   - [Official Session Sources](#official-session-sources)
   - [Archived / Historical Projects](#archived--historical-projects)
-- [Formula 2 and Formula 3](#formula-2-and-formula-3)
+- [Formula 2, Formula 3, and F1 Academy](#formula-2-formula-3-and-f1-academy)
 - [Formula E](#formula-e)
 - [Endurance, WEC, Le Mans, IMSA](#endurance-wec-le-mans-imsa)
   - [Official Series and Results](#official-series-and-results)
@@ -213,11 +213,13 @@
 - [f1viewer](https://github.com/SoMuchForSubtlety/f1viewer) - Archived TUI for F1TV in Go supporting VOD and live streaming via MPV.
 - [f1ml](https://github.com/Jared-Chan/f1ml) - Archived lap-by-lap F1 race prediction project covering lap times, positions, pit stops, and collisions for 20 drivers.
 
-## Formula 2 and Formula 3
+## Formula 2, Formula 3, and F1 Academy
 
 - [FIA Formula 2 Event API](https://api.fia.com/events/formula-2-championship/) - FIA event documents and championship metadata.
 - [FIA Formula 2](https://www.fiaformula2.com/) - Official site with [calendar](https://www.fiaformula2.com/Calendar), [standings](https://www.fiaformula2.com/Standings/Driver), and [regulations](https://www.fiaformula2.com/About/DyImndAsBNFcqYOOm4yWS/the-regulations-f2).
 - [FIA Formula 3](https://www.fiaformula3.com/) - Official site with [calendar](https://www.fiaformula3.com/Calendar) and [regulations](https://www.fiaformula3.com/About/6Iosy860VzDs0INyfKw37E/the-rules-and-regulations-f3).
+- [F1 Academy](https://www.f1academy.com/) - Official F1 Academy site for the all-female feeder championship with news, calendar, standings, teams, drivers, and race information.
+- [F1 Academy YouTube](https://www.youtube.com/@f1academy) - Official channel carrying free livestreams of all qualifying and races.
 
 ## Formula E
 
@@ -245,6 +247,7 @@
 - [WEC Timing Results](https://fiawec.alkamelsystems.com/) - Official Al Kamel timing archive for FIA WEC sessions, classifications, sector times, speed traps, analysis, and weather reports.
 - [IMSA GTP Telemetry](https://www.imsa.com/gtp-telemetry/) - Official telemetry-oriented reference for IMSA's top class.
 - [ELMS Timing Results](https://elms.alkamelsystems.com/) - Al Kamel timing archive for European Le Mans Series.
+- [Le Mans Cup Timing Results](https://lemanscup.alkamelsystems.com/) - Al Kamel timing archive for Michelin Le Mans Cup sessions, sector times, top speeds, fastest laps, and analysis reports.
 - [Asian Le Mans Series Timing Results](https://alms.alkamelsystems.com/) - Al Kamel timing archive for Asian Le Mans Series.
 - [Racing Sports Cars](https://www.racingsportscars.com/) - Historical sports-car racing database covering Le Mans Series, ALMS, FIA GT, IMSA, Can-Am, and more.
 - [World Sports Racing Prototypes](http://www.wsrp.cz/) - Sportscar racing statistics, results, chassis histories, and car-history reference.
@@ -358,12 +361,20 @@
 
 ### YouTube Channels
 
-- [Chain Bear](https://www.youtube.com/@chainbear) - Clear, visual explanations of F1 rules, strategy, and technical concepts.
 - [Driver61](https://www.youtube.com/@Driver61) - Racing technique, car setup science, and F1 engineering deep dives.
-- [Peter Windsor](https://www.youtube.com/@peterwindsor) - Inside F1 from a veteran journalist with technical depth.
-- [Kyle Engineers](https://www.youtube.com/@KyleEngineers) - F1 engineering analysis from a practicing engineer.
 - [The Race](https://www.youtube.com/@TheRace) - Largest independent motorsport channel with expert analysis and technical deep dives.
+- [WTF1](https://www.youtube.com/@WTF1official) - Major F1 community channel covering race-weekend reactions, news, explainers, and fan-focused analysis.
+- [Sky Sports F1](https://www.youtube.com/@SkySportsF1) - Major F1 broadcaster channel with interviews, pundit analysis, race-weekend clips, and features.
+- [Kyle Engineers](https://www.youtube.com/@KyleEngineers) - F1 engineering analysis from a practicing engineer with aero and vehicle-dynamics depth.
+- [Peter Windsor](https://www.youtube.com/@peterwindsor) - Inside F1 from a veteran journalist with technical depth.
 - [CYMotorsport](https://www.youtube.com/@CYMotorsport) - Data-driven F1 driver comparisons, historical analysis, and storytelling.
+- [Chain Bear](https://www.youtube.com/@chainbear) - Clear, visual explanations of F1 rules, strategy, and technical concepts.
+
+#### Korean-language Channels
+
+- [Jesus Yoon (케로튜브)](https://www.youtube.com/@jesusyoon) - Korean F1 commentary, race previews and reviews, weekly review streams, and audio commentary from Coupang Play F1 commentator Yoon Jae-soo.
+- [원투피니시](https://www.youtube.com/@12FINISH) - Beginner-friendly Korean F1 explainers, shorts, team and driver stories, and entry-level guides.
+- [퍼플섹터](https://www.youtube.com/@purplesector.f1) - Korean F1 fan-media channel with weekly news, circuit previews, Grand Prix reviews, and KeroTube collaborations.
 
 ### Podcasts
 
