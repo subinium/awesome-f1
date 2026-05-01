@@ -36,6 +36,9 @@
 - [Formula 2 and Formula 3](#formula-2-and-formula-3)
 - [Formula E](#formula-e)
 - [Endurance, WEC, Le Mans, IMSA](#endurance-wec-le-mans-imsa)
+  - [Official Series and Results](#official-series-and-results)
+  - [Timing, Telemetry, and Data](#timing-telemetry-and-data)
+  - [Media and Analysis](#media-and-analysis)
 - [WRC and Rally](#wrc-and-rally)
 - [MotoGP and WorldSBK](#motogp-and-worldsbk)
 - [NASCAR](#nascar)
@@ -224,11 +227,32 @@
 
 ## Endurance, WEC, Le Mans, IMSA
 
-- [Al Kamel Systems](https://alkamelsystems.com/) - Industry-standard timing provider used across endurance racing. [WEC timing host](http://fiawec.alkamelsystems.com/).
-- [IMSA GTP Telemetry](https://www.imsa.com/gtp-telemetry/) - Official telemetry-oriented reference for IMSA's top class.
+### Official Series and Results
+
 - [FIA WEC](https://www.fiawec.com/) - Official site. [Regulations](https://www.fiawec.com/en/page/regulations-1). [Event API](https://api.fia.com/events/world-endurance-championship/).
 - [24 Hours of Le Mans](https://www.24h-lemans.com/) - Official Le Mans site.
 - [IMSA](https://www.imsa.com/) - Official site. [Schedule](https://www.imsa.com/weathertech/weathertech-2026-schedule/). [Regulations](https://www.imsa.com/competitors/2025-imsa-rules-regulations/).
+- [European Le Mans Series](https://www.europeanlemansseries.com/) - Official ELMS site with news, calendar, results, live timing, videos, and standings.
+- [GT World Challenge Europe](https://www.gt-world-challenge-europe.com/) - European GT3 endurance and sprint series with race results, standings, live timing, and team/driver profiles.
+- [Michelin Le Mans Cup](https://www.lemanscup.com/) - Official Le Mans Cup site for LMP3 and GT3 support-series news, results, live timing, videos, and replays.
+- [Asian Le Mans Series](https://www.asianlemansseries.com/) - Official Asian Le Mans Series site with calendar, live coverage, results, standings, entries, and race replays.
+- [24h Nürburgring Results](https://www.24h-rennen.de/en/results/) - Official Nürburgring 24 Hours results archive.
+
+### Timing, Telemetry, and Data
+
+- [Al Kamel Systems](https://alkamelsystems.com/) - Industry-standard timing provider used across endurance racing.
+- [WEC Timing Results](https://fiawec.alkamelsystems.com/) - Official Al Kamel timing archive for FIA WEC sessions, classifications, sector times, speed traps, analysis, and weather reports.
+- [IMSA GTP Telemetry](https://www.imsa.com/gtp-telemetry/) - Official telemetry-oriented reference for IMSA's top class.
+- [ELMS Timing Results](https://elms.alkamelsystems.com/) - Al Kamel timing archive for European Le Mans Series.
+- [Asian Le Mans Series Timing Results](https://alms.alkamelsystems.com/) - Al Kamel timing archive for Asian Le Mans Series.
+- [Racing Sports Cars](https://www.racingsportscars.com/) - Historical sports-car racing database covering Le Mans Series, ALMS, FIA GT, IMSA, Can-Am, and more.
+- [World Sports Racing Prototypes](http://www.wsrp.cz/) - Sportscar racing statistics, results, chassis histories, and car-history reference.
+
+### Media and Analysis
+
+- [Sportscar365](https://sportscar365.com/) - Dedicated sportscar racing news site covering IMSA, FIA WEC, 24 Hours of Le Mans, GT racing, podcasts, and paddock notes.
+- [dailysportscar](https://www.dailysportscar.com/) - Long-running sportscar and GT racing magazine covering FIA WEC, IMSA, ELMS, Super GT, and endurance racing features.
+- [Endurance-Info](https://en.endurance-info.com/) - Endurance racing news, results, photos, live-race coverage, and archives.
 
 ## WRC and Rally
 
