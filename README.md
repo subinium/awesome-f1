@@ -67,7 +67,8 @@
 - [OpenF1 GitHub](https://github.com/br-g/openf1) - Source and docs for OpenF1.
 - [Jolpica-F1](https://github.com/jolpica/jolpica-f1) - Ergast-compatible F1 API and the current community standard replacement since Ergast shutdown.
 - [Jolpica API](https://api.jolpi.ca/ergast/f1/) - Hosted endpoint for historical F1 data.
-- [F1DB](https://github.com/f1db/f1db) - Full F1 database distributed as JSON, CSV, and SQL dumps.
+- [F1DB](https://github.com/f1db/f1db) - Open-source all-time F1 database with CSV, JSON, SQL, and SQLite releases, covering drivers, constructors, circuits/layouts, seasons, standings, results, grids, fastest laps, pit stops, and more.
+- [fia-doc](https://github.com/harningle/fia-doc) - Python parsers for extracting structured race data from official FIA F1 PDFs, including entry lists, tyre compounds, qualifying/race classifications, lap times, and pit stops.
 - [LiveF1](https://github.com/GoktugOcal/LiveF1) - Python toolkit for real-time and historical F1 data with medallion architecture ETL.
 - [f1dataR](https://github.com/SCasanova/f1dataR) - R package wrapping FastF1 and Jolpica. The standard R interface for F1 data.
 - [f1api.dev](https://f1api.dev/) - Developer-focused F1 API and SDK surface. [GitHub](https://github.com/rafacv23/f1-api).
@@ -204,6 +205,7 @@
 ### Official Session Sources
 
 - [FIA F1 Decision Documents](https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072) - Official race documents, steward decisions, race director notes, timetables, classifications, and technical notices.
+- [FIA F1 Archives](https://api.fia.com/f1-archives) - Official FIA season and event archive for classifications, event and timing information, lap analysis, sector analysis, pit stop summaries, race control messages, and weather reports.
 - [FIA F1 Press Conference Transcripts](https://www.fia.com/news?category=Formula%201) - Official FIA-hosted F1 press conference transcripts and FIA news.
 - [Pirelli F1 Press Area](https://press.pirelli.com/en/?h=1&t=formula+1) - Official tyre compound nominations, race previews, infographics, and tyre-related session reports.
 
