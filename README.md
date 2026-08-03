@@ -97,6 +97,7 @@
 - [undercut-f1](https://github.com/JustAman62/undercut-f1) - TUI live timing app with variable delay (sync to TV broadcast), session replay, and team radio transcription.
 - [MultiViewer for F1](https://multiviewer.app) - Desktop app for synced live timing, mini sectors, and speeds. Requires F1 TV subscription.
 - [F1 Pitwall](https://f1pitwall.fun/) - Live race replay and telemetry dashboard in the browser.
+- [PitLane Digest](https://pitlanedigest.com) - Real-time race timing tower with gap to leader, interval, tyre compound and age, mini-sector colours, and race control messages; also available as a WordPress plugin for embedding the live widget on any post or page.
 
 ### Tools and Apps
 
