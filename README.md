@@ -107,7 +107,7 @@
 - [Apify F1 Data Extractor](https://apify.com/richard.biros/f1-data-extractor) - Scrapes formula1.com for race, qualifying, practice, and pit stop data from 1950-present. Clean JSON output.
 - [F1AppleTV](https://github.com/NoahFetz/F1AppleTV) - F1TV client for Apple TV with multi-feed viewing and multiple audio tracks.
 - [BoxBox](https://github.com/BrightDV/BoxBox) - Open-source F1 and Formula E mobile app (Flutter). News, standings, schedule, offline mode. Available on F-Droid.
-- [Formula Dream](https://www.formuladream.app/) - Free F1 race-weekend companion for iOS and Android. Live timing and telemetry, standings, results, team radio, fantasy leagues, and a news feed aggregating 30+ motorsport sources.
+- [Formula Dream](https://www.formuladream.app/) - F1 race-weekend companion for iOS and Android. Live timing and telemetry, standings, results, live driver radio, fantasy leagues, and an aggregated motorsport news feed. Browser tools: [team radio archive](https://www.formuladream.app/f1-interactive/tools/team-radio), [2026 car showroom](https://www.formuladream.app/f1-interactive/tools/showroom).
 
 ### Dashboards and Analytics
 
@@ -122,9 +122,8 @@
 - [Formula-Timer](https://formula-timer.com/) - Live timing and analytics with lap time breakdowns, performance insights, and circuit guide.
 - [F1 Tempo](https://www.f1-tempo.com/) - Explore and compare F1 lap times and telemetry for journalists, analysts, and enthusiasts.
 - [Formula Live Pulse](https://www.f1livepulse.com/) - Live timing with telemetry charts, 3D track map, AI assistant, and team radio. Covers F1, F2, F3, and F1 Academy.
-- [F1 Gap Visualizer](https://www.formuladream.app/f1-interactive/tools/f1-gap-visualizer) - Turns qualifying gaps into distance you can actually see. Leclerc's 0.175s at Silverstone was 14.7 metres of track, with the whole field drawn to scale on the finish line.
-- [Track Domination](https://www.formuladream.app/f1-interactive/tools/track-domination) - Colours every minisector of a 3D circuit by whoever was fastest through it, then stitches the best ones together into the perfect lap nobody drove. At Silverstone that lap was 1.5s under pole.
-- [F1 Showroom](https://www.formuladream.app/f1-interactive/tools/showroom) - Every 2026 car in 3D in the browser. The first generation of active-aero machines, up close.
+- [F1 Gap Visualizer](https://www.formuladream.app/f1-interactive/tools/f1-gap-visualizer) - Converts qualifying gaps from seconds into track distance using each car's speed across the line, then draws the field to scale.
+- [Track Domination](https://www.formuladream.app/f1-interactive/tools/track-domination) - Colors each minisector of a 3D circuit by the fastest driver through it, and stitches them into a theoretical best lap.
 
 **Open source:**
 
