@@ -418,6 +418,7 @@
 
 - [EA Sports F1 25](https://www.ea.com/games/f1/f1-25) (2025) - Official F1 racing game with career mode, multiplayer, and UDP telemetry output for data tools.
 - [F1 Manager 2024](https://store.steampowered.com/app/2287220/F1_Manager_2024/) (2024) - Official F1 management simulation. Strategy, team development, and race management.
+- [GPRO Calculator](https://gprocalc.com/) - Unofficial web companion for the GPRO browser-based motorsport management game, with Q1/Q2/race setups, fuel planning, tyre and pit-stop strategies, and post-race analysis. Account required; five free races on signup, then one credit per race.
 
 Sim-focused titles (Gran Turismo 7, Assetto Corsa Competizione, iRacing) are listed under [Sim Racing](#sim-racing) alongside their telemetry tooling.
 
