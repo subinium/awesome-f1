@@ -50,6 +50,7 @@
 - [Learning and Education](#learning-and-education)
   - [Books](#books)
   - [Blogs and Tutorials](#blogs-and-tutorials)
+  - [Technical Talks](#technical-talks)
   - [YouTube Channels](#youtube-channels)
   - [Podcasts](#podcasts)
 - [Films, Documentaries, and Games](#films-documentaries-and-games)
@@ -366,6 +367,14 @@
 - [ScarbsF1](https://scarbsf1.wordpress.com/) - Craig Scarborough's long-running F1 technical blog with detailed illustrations and car analysis.
 - [Towards Formula 1 Analysis](https://medium.com/towards-formula-1-analysis) - Structured FastF1 tutorials on Medium covering telemetry analysis, race strategy, and minisector comparisons.
 - [Motorsport Engineer](https://motorsportengineer.net/) - Courses taught by current and former F1 engineers covering aerodynamics, vehicle dynamics, and CFD.
+
+### Technical Talks
+
+- [AI Changes Everything: Inside Oracle Red Bull Racing's AI Edge](https://www.youtube.com/watch?v=KJUfigBy684) - Oracle (2026, 24:42). Martin Galpin on AI, physical models, explainable race-strategy decisions, and software engineering at Red Bull Racing.
+- [Engineering at full throttle: How AWS powers Formula 1](https://www.youtube.com/watch?v=FzBZZmInRCk) - AWS Events, re:Invent 2025 (52:01). Ruth Buscombe on F1 Insights, telemetry pipelines, race-strategy analytics, and generative AI applications.
+- [Formula 1 Extends Fandom with AI, Data, and AWS Media Services](https://www.youtube.com/watch?v=5xsYwR4m3RE) - AWS Events, re:Invent 2025 (53:22). F1 TV Premium streaming architecture and generative AI for race-day root cause analysis.
+- [Driving operational excellence: F1's AI-fueled race-day transformation](https://www.youtube.com/watch?v=2N0fQg-pMVw) - AWS Events, re:Invent 2024 (52:10). F1 leadership on Track Pulse, an AI assistant for operational issue resolution, and the process of developing these services.
+- [Learn how the Oracle Red Bull Racing Formula 1 team wins using OCI](https://www.youtube.com/watch?v=pTgclFrfmWQ) - Oracle, CloudWorld 2022 (20:12). Ian Brunton and Brad Goodwin on cloud-based race simulations and Kubernetes infrastructure supporting race strategy.
 
 ### YouTube Channels
 
