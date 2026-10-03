@@ -134,6 +134,7 @@
 ### Calendar
 
 - [F1 Calendar](https://github.com/sportstimes/f1) - Open-source Next.js F1 calendar app with email reminders and web push. Live at [f1calendar.com](https://f1calendar.com).
+- [When's the Race](https://whenstherace.com) - Every F1 session in your local timezone with live countdowns, an auto-updating calendar subscription (webcal/.ics), and a free CORS JSON schedule feed.
 
 ### Fantasy F1
 
