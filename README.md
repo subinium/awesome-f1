@@ -134,6 +134,7 @@
 ### Calendar
 
 - [F1 Calendar](https://github.com/sportstimes/f1) - Open-source Next.js F1 calendar app with email reminders and web push. Live at [f1calendar.com](https://f1calendar.com).
+- [motorsportsinfo.app](https://motorsportsinfo.app) - Every session for F1, F2, F3, WEC, Formula E, IndyCar and MotoGP in your time zone, with weather at the circuit, push reminders, an auto-updating .ics feed and FIA documents. Open source on [GitHub](https://github.com/byalex33/motorsportsinfo.app).
 
 ### Fantasy F1
 
