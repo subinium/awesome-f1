@@ -346,6 +346,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 - [Motor Sport Magazine Database](https://www.motorsportmagazine.com/database/) - Nearly every motorsport race since 1894. Drivers, teams, circuits, championships.
 - [DriverDB](https://www.driverdb.com/) - Career statistics for 70,000+ drivers across all levels of motorsport with Elo-style ranking.
 - [FIA Results and Statistics](https://fiaresultsandstatistics.motorsportstats.com/) - Official FIA results portal powered by Motorsport Stats, covering all FIA-sanctioned championships.
+- [RaceHooks](https://racehooks.io/docs) - Motorsport analytics platform and ML analytics API — live F1 timing data and race intelligence pushed to your endpoint.
 
 ### Seed Metadata
 
