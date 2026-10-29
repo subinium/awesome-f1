@@ -141,6 +141,7 @@
 - [Fantasy F1 API Endpoints Cheat Sheet](https://cheatography.com/sertalpbilal/cheat-sheets/fantasy-f1-api-endpoints/) - Comprehensive endpoint reference.
 - [F1 Fantasy Tools](https://f1fantasytools.com/) - Monte Carlo simulation-based team calculator, budget builder, and live scoring for official F1 Fantasy.
 - [F1 Pitwall.dev](https://f1pitwall.dev/) - Fantasy optimizer using FP/qualifying data with Monte Carlo confidence intervals. 80.6% backtest accuracy.
+- [Pole Position Fantasy League](https://polepositionfantasyleague.com/) - Free F1 fantasy game: pick 2 drivers, a constructor and a captain on a $100M budget, run private leagues, and play Guess the Podium and Driver of the Day. Includes post-race reports, price/form tracking and an F1DB-backed driver Fact File.
 
 ### Simulation and Vehicle Dynamics
 
