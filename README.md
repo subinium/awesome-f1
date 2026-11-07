@@ -420,6 +420,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 - [EA Sports F1 25](https://www.ea.com/games/f1/f1-25) (2025) - Official F1 racing game with career mode, multiplayer, and UDP telemetry output for data tools.
 - [F1 Manager 2024](https://store.steampowered.com/app/2287220/F1_Manager_2024/) (2024) - Official F1 management simulation. Strategy, team development, and race management.
+- [Datapit](https://datapit.eu/) - Free, unofficial web companion for the GPRO browser-based motorsport management game: Q1/Q2/race setups, tyre and fuel strategy, driver and car season plans, and economy. Requires a read-only GPRO API token (no password, no payment, no ads, no play on your behalf); the token is stored encrypted on the server and never logged, and the [privacy policy](https://datapit.eu/privacy) documents storage, retention and the anonymous pooled race data used to calibrate estimates for everyone, which is kept after account deletion unless its removal is requested separately. Revoking the token in GPRO stops future reads but keeps what was already collected; deleting the account removes the stored data. No account data is shared with third parties. Not affiliated with GPRO.
 
 Sim-focused titles (Gran Turismo 7, Assetto Corsa Competizione, iRacing) are listed under [Sim Racing](#sim-racing) alongside their telemetry tooling.
 
