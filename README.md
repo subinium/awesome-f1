@@ -72,7 +72,7 @@
 - [fia-doc](https://github.com/harningle/fia-doc) - Python parsers for extracting structured race data from official FIA F1 PDFs, including entry lists, tyre compounds, qualifying/race classifications, lap times, and pit stops.
 - [LiveF1](https://github.com/GoktugOcal/LiveF1) - Python toolkit for real-time and historical F1 data with medallion architecture ETL.
 - [f1dataR](https://github.com/SCasanova/f1dataR) - R package wrapping FastF1 and Jolpica. The standard R interface for F1 data.
-- [f1api.dev](https://f1api.dev/) - Developer-focused F1 API and SDK surface. [GitHub](https://github.com/rafacv23/f1-api).
+- [F1 API](https://github.com/Rafacv23/F1-api) - Open-source Formula 1 REST API with a JavaScript/TypeScript SDK and an OpenAPI specification.
 - [F1PyStats](https://github.com/alec-kr/F1PyStats) - Python package for standings, race results, and historical summaries.
 - [API-Sports Formula 1](https://api-sports.io/documentation/formula-1/v1) - Commercial API with free tier (100 req/day), covering seasons, standings, and results.
 
@@ -85,7 +85,7 @@
 - [formula1-datasets](https://github.com/toUpperCase78/formula1-datasets) - Season-by-season CSV datasets and Jupyter analysis notebooks for every F1 season from 2019-2026. Actively updated after each race.
 - [f1-circuits](https://github.com/bacinger/f1-circuits) - F1 circuits in GeoJSON format with track layouts and location coordinates. 35+ of 77 historic circuits.
 - [TUMFTM/racetrack-database](https://github.com/TUMFTM/racetrack-database) - Center lines, track widths, and computed race lines for 20+ circuits from TU Munich.
-- [RelBench rel-f1](https://relbench.stanford.edu/datasets/rel-f1/) - Stanford relational ML benchmark with 9 tables, 97K+ rows, and 6 ML tasks covering 1950-present. NeurIPS 2024.
+- [RelBench rel-f1](https://star-project.stanford.edu/relbench/) - Stanford relational machine-learning benchmark with an F1 dataset and temporally split driver-performance prediction tasks.
 
 ### Kaggle Datasets
 
@@ -95,19 +95,16 @@
 
 ### Live Timing
 
-- [undercut-f1](https://github.com/JustAman62/undercut-f1) - TUI live timing app with variable delay (sync to TV broadcast), session replay, and team radio transcription.
+- [undercut-f1](https://github.com/JustAman62/undercut-f1) - TUI timing app with broadcast delay, replay, and local radio transcription. Protected feeds require an F1 TV login; session tokens are stored in plaintext locally. Protect that local configuration and keep the optional unauthenticated network API disabled on untrusted networks.
 - [MultiViewer for F1](https://multiviewer.app) - Desktop app for synced live timing, mini sectors, and speeds. Requires F1 TV subscription.
-- [F1 Pitwall](https://f1pitwall.fun/) - Live race replay and telemetry dashboard in the browser.
 
 ### Tools and Apps
 
-- [F1 Replay Timing](https://github.com/adn8naiagent/F1ReplayTiming) - Replay viewer with timing overlays, telemetry charts, and track map support.
 - [f1_sensor](https://github.com/Nicxe/f1_sensor) - Home Assistant integration with next race, calendar, live flags, Race Control messages, weather, standings, and historical results.
-- [f1-sensor-live-data-card](https://github.com/Nicxe/f1-sensor-live-data-card) - Home Assistant cards for live F1 telemetry and championship views.
 - [formulaone-card](https://github.com/marcokreeft87/formulaone-card) - Home Assistant dashboard card for F1 standings, schedules, and results. Works with Jolpica API or f1_sensor.
 - [Apify F1 Data Extractor](https://apify.com/richard.biros/f1-data-extractor) - Scrapes formula1.com for race, qualifying, practice, and pit stop data from 1950-present. Clean JSON output.
-- [F1AppleTV](https://github.com/NoahFetz/F1AppleTV) - F1TV client for Apple TV with multi-feed viewing and multiple audio tracks.
-- [BoxBox](https://github.com/BrightDV/BoxBox) - Open-source F1 and Formula E mobile app (Flutter). News, standings, schedule, offline mode. Available on F-Droid.
+- [Vroom TV](https://github.com/NoahFetz/F1AppleTV) - Unofficial F1 TV client for Apple TV and Mac with multiview and synchronized playback. Requires tvOS/macOS 26 or later and an F1 TV account with access to the selected content.
+- [BoxBox](https://github.com/BrightDV/BoxBox) - Unofficial F1 and Formula E app with news, schedules, standings, and offline access. Its official live-timing WebView is off by default; leave it disabled because it uses shared-account credentials and weak session-cookie settings.
 
 ### Dashboards and Analytics
 
@@ -118,7 +115,6 @@
 - [Pitwall](https://pitwall.app/) - F1 database with lap data, pitstop data, race progression from 1950. Web + iOS.
 - [F1 DataStop](https://f1datastop.com/) - Lap time deltas, stint strategy breakdowns, driver vs teammate comparisons.
 - [F1pace](https://f1pace.com/) - In-depth F1 data analysis and visualization.
-- [BoardF1](https://boardf1.com/) - Real-time F1 analytics dashboard with race results, lap times, tyre strategy, and team pace.
 - [Formula-Timer](https://formula-timer.com/) - Live timing and analytics with lap time breakdowns, performance insights, and circuit guide.
 - [F1 Tempo](https://www.f1-tempo.com/) - Explore and compare F1 lap times and telemetry for journalists, analysts, and enthusiasts.
 - [Formula Live Pulse](https://www.f1livepulse.com/) - Live timing with telemetry charts, 3D track map, AI assistant, and team radio. Covers F1, F2, F3, and F1 Academy.
@@ -126,8 +122,7 @@
 **Open source:**
 
 - [F1 Race Replay](https://github.com/IAmTomShaw/f1-race-replay) - F1 replay and telemetry app with track rendering and rich race-state visualization.
-- [f1-dash](https://github.com/slowlydev/f1-dash) - Real-time F1 dashboard (Next.js) showing leaderboard, tires, gaps, laps, mini sectors. Live at [f1-dash.vercel.app](https://f1-dash.vercel.app/).
-- [F1ReplayTiming](https://github.com/adn8naiagent/F1ReplayTiming) - Full-stack replay and live timing app with track map, telemetry overlays, and synchronized playback.
+- [f1-dash](https://github.com/slowlydev/f1-dash) - Real-time F1 dashboard (Next.js) showing leaderboard, tires, gaps, laps, mini sectors. Live at [f1-dash.com](https://f1-dash.com/).
 - [Armchair Strategist](https://github.com/Casper-Guo/Armchair-Strategist) - Strategy-focused F1 dashboard for pit windows, pace comparison, and race narrative visualization.
 - [f1-live-data](https://github.com/f1stuff/f1-live-data) - Real-time F1 visualization using FastF1 live timing, InfluxDB, and Grafana.
 
@@ -140,7 +135,6 @@
 - [F1 Fantasy API (Postman docs)](https://documenter.getpostman.com/view/11462073/TzY68Dsi) - REST API documentation for the official F1 Fantasy undocumented API.
 - [Fantasy F1 API Endpoints Cheat Sheet](https://cheatography.com/sertalpbilal/cheat-sheets/fantasy-f1-api-endpoints/) - Comprehensive endpoint reference.
 - [F1 Fantasy Tools](https://f1fantasytools.com/) - Monte Carlo simulation-based team calculator, budget builder, and live scoring for official F1 Fantasy.
-- [F1 Pitwall.dev](https://f1pitwall.dev/) - Fantasy optimizer using FP/qualifying data with Monte Carlo confidence intervals. 80.6% backtest accuracy.
 
 ### Simulation and Vehicle Dynamics
 
@@ -167,23 +161,23 @@
 - [F1 Teams](https://www.formula1.com/en/teams.html) - Official team directory.
 - [F1 Drivers](https://www.formula1.com/en/drivers.html) - Official driver directory.
 - [FIA Formula 1 Regulations](https://www.fia.com/regulation/category/29) - Official sporting and technical regulations.
-- F1 Social - [YouTube](https://www.youtube.com/@Formula1) / [Instagram](https://www.instagram.com/f1/) / [TikTok](https://www.tiktok.com/@f1) / [X](https://x.com/F1) / [Facebook](https://www.facebook.com/Formula1) / [Threads](https://www.threads.net/@f1)
+- F1 Social - [YouTube](https://www.youtube.com/@Formula1) / [Instagram](https://www.instagram.com/f1/) / [TikTok](https://www.tiktok.com/@f1) / [X](https://x.com/F1) / [Facebook](https://www.facebook.com/Formula1) / [Threads](https://www.threads.com/@f1)
 
 #### Teams (2026)
 
 | Team | YouTube | X |
 |:--|:--|:--|
-| [Alpine](https://www.alpinef1.com/) | [YouTube](https://www.youtube.com/@AlpineCars) | [X](https://x.com/AlpineF1Team) |
-| [Aston Martin](https://www.astonmartinf1.com/en-GB/) | [YouTube](https://www.youtube.com/@astonmartinf1team) | [X](https://x.com/astonmartinf1) |
-| [Audi](https://www.audif1.com/en) | [YouTube](https://www.youtube.com/@AudiF1TV) | [X](https://x.com/audif1_) |
-| [Cadillac](https://www.cadillacf1team.com/) | [YouTube](https://www.youtube.com/@CadillacF1TeamOfficial) | [X](https://x.com/Cadillac_F1) |
-| [Ferrari](https://www.ferrari.com/en-EN/formula1) | [YouTube](https://www.youtube.com/@Ferrari) | [X](https://x.com/ScuderiaFerrari) |
-| [Haas](https://www.haasf1team.com/) | [YouTube](https://www.youtube.com/@Haasf1team) | [X](https://x.com/HaasF1Team) |
-| [McLaren](https://www.mclaren.com/racing/formula-1/) | [YouTube](https://www.youtube.com/@mclarenracing) | [X](https://x.com/McLarenF1) |
-| [Mercedes](https://www.mercedesamgf1.com/) | [YouTube](https://www.youtube.com/@MercedesAMGF1) | [X](https://x.com/MercedesAMGF1) |
-| [Racing Bulls](https://www.visacashapprb.com/int-en) | [YouTube](https://www.youtube.com/@VisaCashAppRB) | [X](https://x.com/visacashapprb) |
-| [Red Bull Racing](https://www.redbullracing.com/int-en) | [YouTube](https://www.youtube.com/@redbullracing) | [X](https://x.com/redbullracing) |
-| [Williams](https://www.williamsf1.com/) | [YouTube](https://www.youtube.com/@WilliamsF1TV) | [X](https://x.com/WilliamsF1) |
+| [Alpine](https://www.alpinef1.com/) | [YouTube](https://www.youtube.com/channel/UCzH4Iwlm8kI09wXbgHvFfIg) | [X](https://x.com/AlpineF1Team) |
+| [Aston Martin](https://www.astonmartinf1.com/en-GB/) | [YouTube](https://www.youtube.com/channel/UC8pLH6_Dz4QwKYE-dtcaxeg) | [X](https://x.com/astonmartinf1) |
+| [Audi](https://www.audif1.com/en) | [YouTube](https://www.youtube.com/channel/UCcicfsG1VMbBqV0jlM7caZw) | [X](https://x.com/audif1_) |
+| [Cadillac](https://www.cadillacf1team.com/) | [YouTube](https://www.youtube.com/channel/UCARJ7OAocZ3D9k1F3DHGftQ) | [X](https://x.com/Cadillac_F1) |
+| [Ferrari](https://www.ferrari.com/en-EN/formula1) | [YouTube](https://www.youtube.com/channel/UCd8iY-kEHtaB8qt8MH--zGw) | [X](https://x.com/ScuderiaFerrari) |
+| [Haas](https://www.haasf1team.com/) | [YouTube](https://www.youtube.com/channel/UCaGImPpcZdJ_8Iu20lCbHHw) | [X](https://x.com/HaasF1Team) |
+| [McLaren](https://www.mclaren.com/racing/formula-1/) | [YouTube](https://www.youtube.com/channel/UC8dxVgZl9u5HeCOXnosCtuQ) | [X](https://x.com/McLarenF1) |
+| [Mercedes](https://www.mercedesamgf1.com/) | [YouTube](https://www.youtube.com/channel/UC7_VGkwCoKfqh1eZEkzey3A) | [X](https://x.com/MercedesAMGF1) |
+| [Racing Bulls](https://www.visacashapprb.com/int-en) | [YouTube](https://www.youtube.com/channel/UCU56G7ZKkB7xkua6EhMz5dg) | [X](https://x.com/visacashapprb) |
+| [Red Bull Racing](https://www.redbullracing.com/int-en) | [YouTube](https://www.youtube.com/channel/UCQIyqMWCdx1GBvbw_Yi6lEA) | [X](https://x.com/redbullracing) |
+| [Williams](https://www.williamsf1.com/) | [YouTube](https://www.youtube.com/channel/UC4AnEj7Pj9ODVhwojHPqAMA) | [X](https://x.com/WilliamsRacing) |
 
 Alpine and Ferrari link to their official brand-wide YouTube channels, which also cover F1.
 
@@ -221,11 +215,10 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 - [RaceControl](https://github.com/robvdpol/RaceControl) - Archived F1TV desktop client for Windows (.NET) with built-in or external player support.
 - [f1viewer](https://github.com/SoMuchForSubtlety/f1viewer) - Archived TUI for F1TV in Go supporting VOD and live streaming via MPV.
-- [f1ml](https://github.com/Jared-Chan/f1ml) - Archived lap-by-lap F1 race prediction project covering lap times, positions, pit stops, and collisions for 20 drivers.
+- [f1ml](https://github.com/Jared-Chan/f1ml) - Archived LSTM race-simulation research prototype for 2001-2021. Upstream documents incomplete models and unreliable crash predictions.
 
 ## Formula 2, Formula 3, and F1 Academy
 
-- [FIA Formula 2 Event API](https://api.fia.com/events/formula-2-championship/) - FIA event documents and championship metadata.
 - [FIA Formula 2](https://www.fiaformula2.com/) - Official site with [calendar](https://www.fiaformula2.com/Calendar), [standings](https://www.fiaformula2.com/Standings/Driver), and [regulations](https://www.fiaformula2.com/About/DyImndAsBNFcqYOOm4yWS/the-regulations-f2).
 - [FIA Formula 3](https://www.fiaformula3.com/) - Official site with [calendar](https://www.fiaformula3.com/Calendar) and [regulations](https://www.fiaformula3.com/About/6Iosy860VzDs0INyfKw37E/the-rules-and-regulations-f3).
 - [F1 Academy](https://www.f1academy.com/) - Official F1 Academy site for the all-female feeder championship with news, calendar, standings, teams, drivers, and race information.
@@ -233,7 +226,6 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 ## Formula E
 
-- [FIA Formula E Event API](https://api.fia.com/events/abb-fia-formula-e-world-championship/) - FIA event data.
 - [Sportradar Formula E API](https://developer.sportradar.com/racing/reference/formula-e-seasons) - Commercial Formula E coverage.
 - [TheSportsDB Formula E](https://www.thesportsdb.com/league/4371-formula-e) - Free general sports API entry.
 - [Formula E](https://fiaformulae.com/) - Official site. [Rules](https://fiaformulae.com/en/championship/rules-and-regulations). [Teams](https://fiaformulae.com/en/teams).
@@ -242,9 +234,9 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 ### Official Series and Results
 
-- [FIA WEC](https://www.fiawec.com/) - Official site. [Regulations](https://www.fiawec.com/en/page/regulations-1). [Event API](https://api.fia.com/events/world-endurance-championship/).
+- [FIA WEC](https://www.fiawec.com/) - Official site. [Regulations](https://www.fiawec.com/en/page/regulations-1).
 - [24 Hours of Le Mans](https://www.24h-lemans.com/) - Official Le Mans site.
-- [IMSA](https://www.imsa.com/) - Official site. [Schedule](https://www.imsa.com/weathertech/weathertech-2026-schedule/). [Regulations](https://www.imsa.com/competitors/2025-imsa-rules-regulations/).
+- [IMSA](https://www.imsa.com/) - Official site. [Schedule](https://www.imsa.com/weathertech/weathertech-2026-schedule/). [Regulations](https://www.imsa.com/competitors/2026-imsa-rules-regulations/).
 - [European Le Mans Series](https://www.europeanlemansseries.com/) - Official ELMS site with news, calendar, results, live timing, videos, and standings.
 - [GT World Challenge Europe](https://www.gt-world-challenge-europe.com/) - European GT3 endurance and sprint series with race results, standings, live timing, and team/driver profiles.
 - [Michelin Le Mans Cup](https://www.lemanscup.com/) - Official Le Mans Cup site for LMP3 and GT3 support-series news, results, live timing, videos, and replays.
@@ -260,7 +252,6 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 - [Le Mans Cup Timing Results](https://lemanscup.alkamelsystems.com/) - Al Kamel timing archive for Michelin Le Mans Cup sessions, sector times, top speeds, fastest laps, and analysis reports.
 - [Asian Le Mans Series Timing Results](https://alms.alkamelsystems.com/) - Al Kamel timing archive for Asian Le Mans Series.
 - [Racing Sports Cars](https://www.racingsportscars.com/) - Historical sports-car racing database covering Le Mans Series, ALMS, FIA GT, IMSA, Can-Am, and more.
-- [World Sports Racing Prototypes](http://www.wsrp.cz/) - Sportscar racing statistics, results, chassis histories, and car-history reference.
 
 ### Media and Analysis
 
@@ -270,25 +261,23 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 ## WRC and Rally
 
-- [WRC Results API](https://api.wrc.com/results-api) - Stage times, split times, itinerary, car entries, classifications via JSON. Undocumented but reverse-engineered.
 - [RallyDataJunkie](https://rallydatajunkie.com/visualising-wrc-rally-results/) - Online book documenting WRC API endpoints, data wrangling, and visualization.
 - [eWRC-results.com](https://ewrc-results.com/) - Comprehensive rally database from 1911 to present, covering WRC down to national rallies.
-- [FIA WRC Event API](https://api.fia.com/events/world-rally-championship/) - FIA event documents and championship metadata.
 - [Sportradar Rally API](https://developer.sportradar.com/racing/reference/rally-overview) - Commercial API with schedules and post-race results for WRC.
 - [WRC](https://www.wrc.com/) - Official site.
-- [FIA World Rallycross](https://www.fiaworldrallycross.com/) - Official WRX results and standings.
+- [FIA Rallycross](https://www.fia-rallycross.com/) - Official FIA rallycross news, results, and standings.
 
 ## MotoGP and WorldSBK
 
 - [TheSportsDB MotoGP](https://www.thesportsdb.com/league/4407-motogp) - Free community API surface.
 - [TheSportsDB WorldSBK](https://www.thesportsdb.com/league/4454-sbk) - Free community API surface.
 - [MotoGP](https://www.motogp.com/) - Official site. [Calendar](https://www.motogp.com/en/calendar/2026).
-- [FIM Grand Prix Regulations](https://www.fim-moto.com/en/documents/view/fim-2026-motogp-moto2-moto3-world-championship-regulations) - Official rules PDF.
+- [FIM Grand Prix Regulations](https://www.fim-moto.com/en/sports/view/fim-grand-prix-world-championship-8147) - Official FIM Grand Prix championship hub with regulations and documents.
 - [WorldSBK](https://www.worldsbk.com/) - Official site.
 
 ## NASCAR
 
-- [NASCAR Feed API](https://feed.nascar.com/swagger/ui/index) - Official public API for schedules, entries, standings, and race data.
+- [NASCAR Cup Schedule Feed](https://cf.nascar.com/cacher/2026/1/race_list_basic.json) - NASCAR-hosted Cup Series schedule JSON for 2026. Undocumented; fields and availability may change.
 - [nascaR.data](https://cran.r-project.org/web/packages/nascaR.data/index.html) - R package for historical NASCAR datasets. Cup (1949+), Xfinity (1982+), Trucks (1995+). Auto-updated weekly.
 - [Racing-Reference](https://www.racing-reference.info/) - Comprehensive NASCAR and motorsport historical statistics with loop data.
 - [SportsDataIO NASCAR](https://sportsdata.io/nascar-motorsports-api) - Commercial NASCAR API.
@@ -303,7 +292,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 ## Other Series
 
-- [DTM](https://www.dtm.com/en) - Official site with results, standings, and schedules. [Motorsport Stats](https://motorsportstats.com/series/deutsche-tourenwagen-masters/summary/2024).
+- [DTM](https://www.dtm.com/en) - Official site with results, standings, and schedules.
 - [Super Formula](https://superformula.net/sf2/en/) - Official results, standings, and schedule.
 - [Super GT Results](https://supergt.net/results?ln=en) - Official GT500/GT300 results.
 - [Supercars Live Timing](https://www.supercars.com/live-timing) - Official live timing during events. [TheSportsDB](https://www.thesportsdb.com/league/4489-V8-Supercars).
@@ -318,11 +307,10 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
   - [RaceLab](https://racelab.app/) - Commercial overlay app with free tier for iRacing, ACC, rF2, LMU, AMS2, F1.
 - **iRacing**
   - [pyirsdk](https://github.com/kutu/pyirsdk) - Python 3 iRacing SDK for live telemetry, session data, and broadcast commands.
-  - [iracingdataapi](https://github.com/jasondilworth56/iracingdataapi) - Python wrapper for iRacing /data API with rate limit tracking.
-  - [pyracing](https://github.com/Esterni/pyracing) - Async Python API client mapping iRacing JSON to structured objects.
-  - [ibt-telemetry](https://github.com/SkippyZA/ibt-telemetry) - 100% complete IBT parser, cross-platform. Node.js.
+  - [iracingdataapi](https://github.com/jasondilworth56/iracingdataapi) - Python wrapper for iRacing's /data API with OAuth access-token support and rate-limit tracking.
+  - [ibt-telemetry](https://github.com/SkippyZA/ibt-telemetry) - Node.js parser for iRacing IBT telemetry files.
   - [Cosworth Pi Toolbox](https://www.iracing.com/cosworth-pi-toolbox/) - Professional-grade data analysis. Reads IBT natively. Free Lite tier.
-  - [iRacing Developers](https://members-ng.iracing.com/data-api/about) - Official iRacing data API overview.
+  - [iRacing Data API OAuth](https://oauth.iracing.com/oauth2/book/data_api_workflow.html) - Official OAuth workflow for account data. Keep two-factor authentication enabled when using third-party clients.
 - **ACC**
   - [PyAccSharedMemory](https://github.com/rrennoir/PyAccSharedMemory) - Python shared memory reader for ACC. Available on PyPI.
   - [acctelemetry](https://github.com/gotzl/acctelemetry) - Display and analyze MoTeC telemetry data recorded by ACC.
@@ -340,12 +328,10 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 - [TheSportsDB](https://www.thesportsdb.com/) - Broad sports API with useful motorsport coverage.
 - [Motorsport Stats](https://motorsportstats.com/) - World's largest motorsport data repository with ~3,000 races per season. API via subscription.
-- [SportsDataIO Motorsport](https://sportsdata.io/motorsports-api) - Commercial motorsport data across series.
 - [Sportradar Racing](https://developer.sportradar.com/racing) - Commercial multi-series racing API.
 - [Race Monitor API](https://www.race-monitor.com/Home/API) - Generic race timing API covering grassroots through pro events.
 - [Motor Sport Magazine Database](https://www.motorsportmagazine.com/database/) - Nearly every motorsport race since 1894. Drivers, teams, circuits, championships.
 - [DriverDB](https://www.driverdb.com/) - Career statistics for 70,000+ drivers across all levels of motorsport with Elo-style ranking.
-- [FIA Results and Statistics](https://fiaresultsandstatistics.motorsportstats.com/) - Official FIA results portal powered by Motorsport Stats, covering all FIA-sanctioned championships.
 
 ### Seed Metadata
 
@@ -367,7 +353,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 ### Blogs and Tutorials
 
-- [F1 Data Junkie](http://www.f1datajunkie.com/) - Tony Hirst's long-running F1 data analysis blog.
+- [F1 Data Junkie Projects](https://github.com/f1datajunkie) - Public F1 data-wrangling notebooks and companion projects.
 - [RaceFans Race Data](https://www.racefans.net/category/race-data/) - Independent analysis articles with race data and statistics.
 - [TracingInsights](https://tracinginsights.com/) - Interactive charts for lap times, telemetry, and performance analysis. 2018+ seasons.
 - [F1technical.net](https://www.f1technical.net/) - Deep technical articles on aerodynamics, car design, and regulation analysis with active forums.
@@ -387,7 +373,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 - [Driver61](https://www.youtube.com/@Driver61) - Racing technique, car setup science, and F1 engineering deep dives.
 - [The Race](https://www.youtube.com/@TheRace) - Largest independent motorsport channel with expert analysis and technical deep dives.
-- [WTF1](https://www.youtube.com/@WTF1official) - Major F1 community channel covering race-weekend reactions, news, explainers, and fan-focused analysis.
+- [RAFA TV (formerly WTF1)](https://www.youtube.com/channel/UCDxm-FbK9nmZKqHI19j-DOw) - Motorsport films and behind-the-scenes coverage across sportscar racing, F1, and IndyCar.
 - [Sky Sports F1](https://www.youtube.com/@SkySportsF1) - Major F1 broadcaster channel with interviews, pundit analysis, race-weekend clips, and features.
 - [Kyle Engineers](https://www.youtube.com/@KyleEngineers) - F1 engineering analysis from a practicing engineer with aero and vehicle-dynamics depth.
 - [Peter Windsor](https://www.youtube.com/@peterwindsor) - Inside F1 from a veteran journalist with technical depth.
@@ -417,7 +403,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 - [F1: The Academy](https://www.imdb.com/title/tt36711188/) (2025) - Netflix. 15 young women compete in the F1 Academy racing series in pursuit of reaching Formula 1. Produced by Hello Sunshine.
 - [The Seat](https://www.imdb.com/title/tt36741795/) (2025) - Netflix. Mercedes' decision to promote 18-year-old Kimi Antonelli to Formula 1 following Lewis Hamilton's departure to Ferrari.
 - [Schumacher](https://www.netflix.com/title/81399308) (2021) - Netflix. The life and career of seven-time world champion Michael Schumacher, told through rare interviews and archival footage.
-- [A Life of Speed: The Juan Manuel Fangio Story](https://www.netflix.com/title/80208059) (2020) - Netflix. The story of Argentine racing legend Juan Manuel Fangio and his five World Championship titles.
+- [A Life of Speed: The Juan Manuel Fangio Story](https://www.imdb.com/title/tt6668212/) (2020) - Netflix. The story of Argentine racing legend Juan Manuel Fangio and his five World Championship titles.
 - [Williams](https://www.imdb.com/title/tt5765218/) (2017) - The inspiring story of Sir Frank Williams, the man behind one of the most successful teams in motorsport history.
 - [McLaren](https://www.imdb.com/title/tt6209326/) (2017) - The remarkable story of Bruce McLaren, the New Zealander who founded the McLaren Motor Racing team.
 - [1](https://www.imdb.com/title/tt2518788/) (2013) - A story of the golden era of Formula 1 racing, when the weights of victory and defeat were measured in human lives.
@@ -434,7 +420,6 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 - [EA Sports F1 25](https://www.ea.com/games/f1/f1-25) (2025) - Official F1 racing game with career mode, multiplayer, and UDP telemetry output for data tools.
 - [F1 Manager 2024](https://store.steampowered.com/app/2287220/F1_Manager_2024/) (2024) - Official F1 management simulation. Strategy, team development, and race management.
-- [GPRO Calculator](https://gprocalc.com/) - Unofficial web companion for the GPRO browser-based motorsport management game, with Q1/Q2/race setups, fuel planning, tyre and pit-stop strategies, and post-race analysis. Account required; five free races on signup, then one credit per race.
 
 Sim-focused titles (Gran Turismo 7, Assetto Corsa Competizione, iRacing) are listed under [Sim Racing](#sim-racing) alongside their telemetry tooling.
 
@@ -471,6 +456,10 @@ Contributions welcome! Open a PR with a clear one-line description for each reso
 - **Kaggle datasets**: 1,000+ downloads
 - **Websites**: actively maintained with recent data
 - **YouTube/Podcasts**: established audience, technical depth
+- **Provenance and claims**: identify data sources and usage restrictions, and describe working features with their limitations. Performance claims need a defined metric and reproducible evaluation.
+- **Security and privacy**: tools handling accounts or API tokens must document storage, retention, and third-party sharing. Known unsafe defaults or materially contradictory security disclosures block inclusion. Risks isolated to optional features that are disabled by default may be accepted only with explicit warnings and safe settings.
+- **Licensing and official accounts**: use "open source" only with an explicit license, and verify official social accounts against first-party links or documentation.
+- **AI-assisted work**: judged by the same functionality, evidence, maintenance, and security standards; AI-assisted authorship alone is not a reason to reject a resource.
 
 ## License
 
