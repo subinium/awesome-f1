@@ -420,7 +420,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 
 - [EA Sports F1 25](https://www.ea.com/games/f1/f1-25) (2025) - Official F1 racing game with career mode, multiplayer, and UDP telemetry output for data tools.
 - [F1 Manager 2024](https://store.steampowered.com/app/2287220/F1_Manager_2024/) (2024) - Official F1 management simulation. Strategy, team development, and race management.
-
+- [Scorewit Racing](https://www.scorewit.com/f1) - Free daily Formula 1 history trivia: six questions a day, every season since 1950, every fact computed from F1DB and linked to its source.
 Sim-focused titles (Gran Turismo 7, Assetto Corsa Competizione, iRacing) are listed under [Sim Racing](#sim-racing) alongside their telemetry tooling.
 
 ## Official Reference Links
