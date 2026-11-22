@@ -97,6 +97,7 @@
 
 - [undercut-f1](https://github.com/JustAman62/undercut-f1) - TUI timing app with broadcast delay, replay, and local radio transcription. Protected feeds require an F1 TV login; session tokens are stored in plaintext locally. Protect that local configuration and keep the optional unauthenticated network API disabled on untrusted networks.
 - [MultiViewer for F1](https://multiviewer.app) - Desktop app for synced live timing, mini sectors, and speeds. Requires F1 TV subscription.
+- [LIGHTS OUT](https://github.com/dvinerlove/f1-timer) - Zero-dependency browser app: countdown to the next Grand Prix that turns into a live timing tower when the lights go out. OpenF1 telemetry, official F1 feed via local proxy, track maps, weather. Live at [dvinerlove.github.io/f1-timer](https://dvinerlove.github.io/f1-timer/).
 
 ### Tools and Apps
 
