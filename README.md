@@ -135,6 +135,7 @@
 - [F1 Fantasy API (Postman docs)](https://documenter.getpostman.com/view/11462073/TzY68Dsi) - REST API documentation for the official F1 Fantasy undocumented API.
 - [Fantasy F1 API Endpoints Cheat Sheet](https://cheatography.com/sertalpbilal/cheat-sheets/fantasy-f1-api-endpoints/) - Comprehensive endpoint reference.
 - [F1 Fantasy Tools](https://f1fantasytools.com/) - Monte Carlo simulation-based team calculator, budget builder, and live scoring for official F1 Fantasy.
+- [Pole Position Fantasy League](https://polepositionfantasyleague.com/) - Free, independent F1 fantasy game (not affiliated with Formula 1): pick 2 drivers, a constructor and a captain on a $100M budget, run private leagues, and play Guess the Podium and Driver of the Day. Scoring, post-race reports, price/form tracking and the driver Fact File use F1DB results data. Requires an account; the [privacy policy](https://polepositionfantasyleague.com/privacy) covers retention and processors.
 
 ### Simulation and Vehicle Dynamics
 
