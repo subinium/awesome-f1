@@ -317,6 +317,7 @@ Alpine and Ferrari link to their official brand-wide YouTube channels, which als
 - **F1 Game**
   - [f1-telemetry-client](https://github.com/racehub-io/f1-telemetry-client) - TypeScript UDP client and parser, F1 2018 through F1 23.
   - [Pits n' Giggles](https://github.com/ashwin-nat/pits-n-giggles) - Live telemetry tool for F1 23/24/25 with overlays and dashboards. Python.
+  - [Driver Dojo](https://driverdojo.app/) - Setup coach for F1 25 and its 2026 Season Pack, plus F1 24: reads your UDP telemetry, breaks each lap into corners and returns exact setup values. Web app.
 - **rFactor 2 / LMU**
   - [TinyPedal](https://github.com/TinyPedal/TinyPedal) - Free open-source telemetry overlay for rFactor 2 and Le Mans Ultimate.
   - [rF2SharedMemoryMapPlugin](https://github.com/TheIronWolfModding/rF2SharedMemoryMapPlugin) - Core shared memory plugin for rF2/LMU.
